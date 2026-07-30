@@ -1,0 +1,13 @@
+[project]
+name = "havaaniceday-wallpaper"
+version = "0.1.0"
+description = "macOS desktop wallpaper auto-rotation app"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "flet>=0.86.4",
+    "pyobjc-core>=12.2.1",
+    "pyobjc-framework-cocoa>=12.2.1",
+    "requests>=2.34.2",
+]
